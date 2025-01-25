@@ -1,0 +1,141 @@
+/* ____ default ____ */
+
+@font-face {
+    font-family: "Yekan";
+    src: url(../fonts/Yekan.eot);
+}
+@font-face {
+    font-family: "Yekan";
+    src: url(../fonts/Yekan.ttf);
+}
+@font-face {
+    font-family: "Yekan";
+    src: url(../fonts/Yekan.woff);
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 0.3s;
+}
+* {
+    transition: 0.3s;
+}
+body {
+    font-family: "Yekan" !important;
+}
+a {
+    color: rgba(25, 24, 31, 1);
+    padding: 10px 14px;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: 400;
+    display: flex;
+    line-height: normal;
+    cursor: pointer;
+}
+a:hover,a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgba(253, 123, 3, 1);
+    text-decoration: none !important;
+}
+a:hover svg path,a:focus svg path {
+    fill: #fff;
+}
+button {
+    border: 1px solid #9d9c9c;
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+input:hover, input:focus {
+    text-decoration: none;
+    outline: none;
+    border-bottom: 1px solid #C7C4FF !important;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+/* ____ default ____ */
+
+/* _____header_____ */
+header {
+    background-color: rgba(242, 242, 242, 1);
+}
+header .logo svg, header .logo img {
+    max-width: 150px;
+    max-height: 40px;
+}
+
+header .menu ul {
+    list-style-type: none;
+    text-align: right;
+}
+header .menu ul li{
+    display: inline-block;
+    font-size: 14px;
+}
+/* header .menu ul li:not(:last-child) {
+    margin-left: 24px;
+} */
+header .user_tools .arrow_btn {
+    cursor: pointer;
+}
+header .user_tools .theme_switch_box, header .user_tools .search_box {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+}
+header .user_tools .theme_switch_box .switch_btn a {
+    border: 1px solid #fff;
+}
+header .user_tools .theme_switch_box .switch_btn.active a {
+    background: #F2F2F2;
+    border: 1px solid #C7C4FF;
+    border-radius: 3px;
+}
+header .user_tools .theme_switch_box .switch_btn.active a svg path {
+    fill: #19181F;
+}
+header .user_tools .search_box {
+    position: relative;
+}
+header .user_tools .search_box a {
+    padding: 9px;
+}
+header .user_tools .search_form {
+    display: flex;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    top: 42px;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}
+header .user_tools .search_form input[type="text"] {
+    border: none;
+    font-size: 14px;
+}
+header .user_tools .search_form button {
+    border: none;
+    background: #F2F2F2;
+}
+header .user_tools .search_box:hover .search_form , header .user_tools .search_form:hover,header .user_tools .search_form:focus {
+    pointer-events: visible;
+    visibility: visible;
+    opacity: 1;
+}
+header .user_tools .login_box div a {
+    padding: 9px 12px;
+    font-size: 12px;
+    font-weight: 900;
+}
+header .user_tools .login_box div:last-child a {
+    color: rgb(255, 255, 255);
+    background-color: rgba(253, 123, 3, 1);
+    text-decoration: none !important;
+}
+/* _____header_____ */
