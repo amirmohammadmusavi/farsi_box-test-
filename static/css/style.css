@@ -187,3 +187,50 @@ section.login_register_form form {
     border-radius: 10px;
 }
 /*  _____login_register_form_____ */
+
+/* _____Showcase_____ */
+.Showcase .card-item {
+    border-radius: 4px;
+    background-color: #d6d6d6;
+    height: 185px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.Showcase .card-item .item:last-child {
+    margin-left: 4px;
+}
+.Showcase .card-item .information .icons img {
+    padding: 4px 1px;
+}
+.Showcase .card-item .description {
+    padding: 8px;
+    background-color: rgba(6, 4, 24, 0.478);
+    backdrop-filter: blur(4px);
+}
+.Showcase .large-item .description {
+    background: linear-gradient(0deg, rgba(27, 28, 31, 0.6) 0%, rgba(27, 28, 31, 0) 100%);
+    backdrop-filter: blur(4px);
+}
+.Showcase .card-item .description .desc_title h4 {
+    font-size:14px;
+    font-weight: 900;
+    color: #fff;
+}
+.Showcase .card-item .description p.desc {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    color: #fff;
+}
+.Showcase .card-item .description .score span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
+.Showcase .card-item .description .score > span:nth-child(1) {
+    font-size: 12px !important;
+    color: rgba(153, 150, 178, 1);
+}
+/*____Showcase____*/
