@@ -102,13 +102,13 @@
 <!-- header end -->
   <body>
     <!--login/register start-->
-    <section class="login_register_form">
-        <form class="login" action="">
+    <section class="login_register_form text-right">
+        <form class="login bg-light" action="">
             <h1>ورود / ثبت نام</h1>
             <p>لطفا شماره تلفن همراه خود را وارد کنید</p>
             <label for="Phone_Number">تلفن همراه</label>
-            <input name="Phone_Number" id="Phone_Number" type="text" pattern="^[0][9](([0-9]{1}[1-9]{1}[0-9]{7})|([1-9]{1}{0-9}{8}))" title="فرمت شماره تلفن اشتباه است" >
-            <input class="d-block m-auto" type="submit" value="ورود / ثبت نام">
+            <input type="text" class="w-100 p-2 rounded border-0" name="phonenumber" id="login_number" pattern="^[0][9](([0-9]{1}[1-9]{1}[0-9]{7})|([1-9]{1}[0-9]{8}))" placeholder="مثال: 09014131719"  required>
+            <button type="submit" gradiant_gold class="btn btn-warning w-100 rounded p-3 mt-5 font-bold">ورود / ثبت نام</button>
         </form>
     </section>
     <!-- login/register end -->

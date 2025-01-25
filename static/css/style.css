@@ -183,7 +183,6 @@ section.login_register_form {
     justify-content: center;
 }
 section.login_register_form form {
-    background: #d0d0d0;
     padding: 30px;
     border-radius: 10px;
 }
