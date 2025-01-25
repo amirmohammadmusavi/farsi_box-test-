@@ -174,3 +174,17 @@ header .user_tools .login_box div:last-child a {
     text-decoration: none !important;
 }
 /* _____header_____ */
+
+/*  _____login_register_form_____ */
+section.login_register_form {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section.login_register_form form {
+    background: #d0d0d0;
+    padding: 30px;
+    border-radius: 10px;
+}
+/*  _____login_register_form_____ */
