@@ -32,6 +32,7 @@ a {
     display: flex;
     line-height: normal;
     cursor: pointer;
+    white-space: nowrap;
 }
 a:hover,a:focus {
     color: rgb(255, 255, 255);
@@ -66,7 +67,27 @@ header .logo svg, header .logo img {
     max-width: 150px;
     max-height: 40px;
 }
-
+header .menu > .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+header .menu:focus > ul,header .menu:hover >ul {
+    opacity: 1;
+    pointer-events: visible;
+    visibility: visible;
+    right: 0;
+}
+header .menu > .bar > span {
+    width: 15px;
+    height: 1px;
+    background-color: #19181F;
+    margin-top: 4px;
+}
 header .menu ul {
     list-style-type: none;
     text-align: right;
@@ -132,6 +153,20 @@ header .user_tools .login_box div a {
     padding: 9px 12px;
     font-size: 12px;
     font-weight: 900;
+    white-space: nowrap;
+    position: relative;
+}
+header .user_tools .login_box div a:after {
+    content: "";
+    position: absolute;
+    left: 13px;
+    top: 52%;
+    width: 55%;
+    height: 1px;
+    background-color: #000;
+}
+header .user_tools .login_box div:last-child a::after {
+    background-color: #ffffff;
 }
 header .user_tools .login_box div:last-child a {
     color: rgb(255, 255, 255);

@@ -1,0 +1,32 @@
+/* 
+note: i did not saw any responsive design on figma ...
+*/
+
+@media (min-width: 1200px) { 
+    
+ }
+
+@media (max-width: 992px) { 
+    header .menu > ul,header .menu >ul {
+        display: flex !important;
+        position: fixed;
+        flex-direction: column;
+        right: -50%;
+        top: 0;
+        height: 100vh;
+        background: #f8f9fa;
+        padding: 20px;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    
+ }
+
+@media (max-width: 768px) { 
+    
+ }
+
+@media (max-width: 576px) {
+    
+ }
